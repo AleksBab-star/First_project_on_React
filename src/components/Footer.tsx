@@ -1,7 +1,7 @@
 export default function Footer(){
     return (
-        <section className="bg-[#222831] font-['Poppins'] font-400 text-white text-4.5 ">
-            <nav className="flex items-center gap-12 justify-center pt-25 px-120 mb-9.5">
+        <section className="bg-[#222831] font-['Poppins'] font-400 text-white text-lg">
+            <nav className="flex items-center gap-12 justify-center pt-10 max-md:pt-8 px-120 mb-10 max-md:px-6 max-md:gap-6 max-md:mb-10">
                 <a href="#" className="flex items-center gap-2 hover:text-gray-300 transition">
                     <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="#EEEEEE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,7 +21,7 @@ export default function Footer(){
                     <span>Contact</span></a>
             </nav>
 
-            <div className="flex justify-center gap-6 mb-41.75 ">
+            <div className="flex justify-center gap-6 mb-12">
                 <a href="#" className="w-12 h-12 rounded-full bg-[#393E46] flex items-center justify-center hover:bg-[#4A515C] transition">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="#EEEEEE" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -50,7 +50,7 @@ export default function Footer(){
                 </a>
             </div>
 
-            <div className="py-12 px-24 bg-[#222831] flex justify-end">
+            <div className="py-12 max-md:py-6 px-24 bg-[#222831] flex justify-end max-md:px-6 max-md:justify-center">
                 <span className="font-extralight">Terms of Service - Privacy Policy</span>
             </div>
 
