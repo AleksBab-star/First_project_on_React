@@ -4,9 +4,10 @@ export default function Header() {
             <h1 className=" font-['Oswald'] font-bold text-2xl text-white leading-[100%] max-md:text-3xl">SaulDesign</h1>
 
             <ul className="font-['Poppins'] font-normal text-white text-[18px] leading-[100%] flex gap-12 items-center max-md:hidden ">
-                <li>Home</li>
-                <li>About me</li>
-                <li>Contact</li>
+                <a href="#about">About me</a>
+                <a href="#works">My works</a>
+                <a href="#forms">Forms</a>
+                <a href="#footer">Contacts</a>
             </ul>
         </section>
     );

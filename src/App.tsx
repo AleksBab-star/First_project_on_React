@@ -11,12 +11,13 @@ function App() {
 
   return (
     <>
+    
         <Header/>
         <Hero/>
-        <About_me/>
-        <Recent_works/>
-        <Forms/>
-        <Footer/>
+        <section id = 'about'><About_me/></section>
+        <section id = 'works'><Recent_works/></section>
+        <section id = 'forms'> <Forms/></section>
+        <section id = 'footer'><Footer/></section>
     </>
   )
 }

@@ -47,26 +47,13 @@ export default function Forms(){
                             <div className="max-md:flex max-md:justify-center">
                                 <button
                                     type="submit"
-                                    className="rounded-3xl font-bold bg-[#00ADB5] px-8 py-2.5 text-white hover:bg-[#009aa3] transition-colors flex items-center gap-2 whitespace-nowrap">
+                                    className="rounded-3xl font-bold bg-[#00ADB5] px-8 py-2.5 text-white flex items-center gap-2 whitespace-nowrap tarnsition-all duration-300 hover:scale-105 hover:brightness-110">
                                     Send Message
-                                    <svg className="max-md:hidden" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g filter="url(#filter0_d_25_10046)">
-                                            <path d="M25 2L14 13" stroke="#EEEEEE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                            <path d="M25 2L18 22L14 13L5 9L25 2Z" stroke="#EEEEEE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                        </g>
-                                        <defs>
-                                            <filter id="filter0_d_25_10046" x="-1" y="0" width="32" height="32" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                                                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-                                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                                <feOffset dy="4"/>
-                                                <feGaussianBlur stdDeviation="2"/>
-                                                <feComposite in2="hardAlpha" operator="out"/>
-                                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
-                                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25_10046"/>
-                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25_10046" result="shape"/>
-                                            </filter>
-                                        </defs>
+                                    <svg className="max-md:hidden" width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 2L11 13" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                                        <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
                                     </svg>
+
                                 </button>
                             </div>
                         </form>
