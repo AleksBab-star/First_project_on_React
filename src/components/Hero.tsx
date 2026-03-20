@@ -5,7 +5,7 @@ export default  function Hero(){
                 <h1 className="font-['Poppins'] font-bold text-[96px] max-md:text-[48px] max-w-[586px] leading-24 max-md:leading-16 text-white">CREATIVE UI <span className="text-[#00ADB5]">DESIGNER</span> </h1>
                 <div className="flex gap-6">
                     <button className="rounded-3xl font-bold bg-[#00ADB5] px-[32px] py-2.5 text-white whitespace-nowrap tarnsition-all duration-300 hover:scale-105 hover:brightness-110">Hire me</button>
-                    <button className="flex rounded-3xl font-bold bg-[#333840] px-[32px] py-2.5 text-white gap-2.5 whitespace-nowrap tarnsition-all duration-300 hover:scale-105 hover:brightness-110">
+                    <button className="flex rounded-3xl font-bold bg-[#333840] px-[32px] py-2.5 text-white gap-2.5 whitespace-nowrap transition-all duration-300 hover:scale-105 hover:brightness-110">
                         Download
 
                         <svg className="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
