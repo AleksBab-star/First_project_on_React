@@ -1,6 +1,7 @@
 export default function Footer(){
     return (
-        <section className="bg-[#222831] font-['Poppins'] font-400 text-white text-lg">
+       
+       <section className="bg-[#222831] font-['Poppins'] font-400 text-white text-lg">
             <nav className="flex items-center gap-12 justify-center pt-10 max-md:pt-8 px-120 mb-10 max-md:px-6 max-md:gap-6 max-md:mb-10">
                 <a href="#" className="flex items-center gap-2 hover:text-gray-300 transition">
                     <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

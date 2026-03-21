@@ -1,18 +1,30 @@
+import {motion} from 'framer-motion'
 export default function Forms(){
     return (
+        
         <section className="bg-[#222831] px-24 max-md:px-8 py-65 max-md:py-16 font-['Poppins'] font-md text-4.2">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
-                    <div className="font-['Poppins'] max-w-150 max-md:max-w-full">
+                    <motion.div 
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6 }}
+                    viewport={{ once:true, amount: 0.9}}
+                    className="font-['Poppins'] max-w-150 max-md:max-w-full">
                         <h2 className="font-bold text-[64px] max-md:text-[40px] text-white mb-8">
                             Got a project in <span className="text-[#00ADB5]">mind?</span>
                         </h2>
                         <img src="/images/Forms.png" alt="Picture" className="w-full max-w-[460px] h-auto"/>
-                    </div>
+                    </motion.div>
 
                     <div>
-                        <form className="space-y-6">
+                        <motion.form 
+                        initial={{ opacity: 0, x: 100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once:true, amount: 0.9}}
+                        className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label htmlFor="name" className="block text-white mb-2">Your name</label>
@@ -56,7 +68,7 @@ export default function Forms(){
 
                                 </button>
                             </div>
-                        </form>
+                        </motion.form>
                     </div>
 
                 </div>
