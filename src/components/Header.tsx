@@ -1,5 +1,5 @@
 import {useState} from "react";
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,10 +24,12 @@ export default function Header() {
 
             </button>
 
+            <AnimatePresence>
             {isOpen && (
                 <motion.div
                     initial={{ opacity: 0, x: -200 }}
                     animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -200 }}
                     transition={{ duration: 0.4}}
                     className="absolute top-18.75 bg-[#333840] w-full left-0 flex items-center justify-center py-5">
                     <ul className="font-['Poppins'] font-normal text-white text-lg leading-[100%] flex flex-col gap-5 items-center">
@@ -38,6 +40,7 @@ export default function Header() {
                     </ul>
                 </motion.div>
             )}
+            </AnimatePresence>
         </section>
     );
 }
